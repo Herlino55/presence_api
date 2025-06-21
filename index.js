@@ -65,5 +65,5 @@ app.use(cors(
 
 // Démarrage du serveur
 app.listen(PORT,'0.0.0.0', () => {
-  console.log(`Serveur lancé sur http://192.168.1.196:${PORT}`);
+  console.log(`Serveur lancé sur https://presenceapi-production.up.railway.app:${PORT}`);
 });
