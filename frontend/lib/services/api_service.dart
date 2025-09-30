@@ -58,7 +58,7 @@ class AuthApi {
     }
   }
 
-  // Nouvelle méthode pour l'inscription des enseignants
+  // Nouvelle méthode pour l'inscription des enseignants 
   static Future<Map<String, dynamic>> registerTeacher({
     required String name,
     required String email,
@@ -468,3 +468,5 @@ class AuthApi {
     }
   }
 }
+
+// url_api: 'https://presenceapi-production.up.railway.app';
