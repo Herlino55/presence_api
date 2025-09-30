@@ -1,0 +1,50 @@
+name: presence_qr
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+#  qr_code_scanner: ^1.0.0
+  image_picker: ^1.0.4
+  provider: ^6.0.0
+  shared_preferences: ^2.2.0
+  jwt_decoder: ^2.0.1
+  path: ^1.8.0
+  animations: ^2.0.0
+  intl: ^0.18.0
+  lottie: ^3.1.2
+  mobile_scanner: ^5.0.0
+  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+   - assets/Lottie Lego.json
+   - assets/Lottie QRcode.json
+   - assets/Lottie Student.json
+   - assets/Lottie Login.json
+   - assets/Lottie_Login_2.json
+   - assets/qrcode.json
+   - assets/liste.json
+   - assets/scan.json
+   - assets/inconnu.json
+   - assets/create_QR.json
+   - assets/historique.json
+
